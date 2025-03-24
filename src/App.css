@@ -1,10 +1,17 @@
-.App {
-  text-align: center;
+.about-container p{
+  color:darkslategrey;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.about-container h1{
+  color: #e1801e;
+}
+
+.about-container h2{
+  color: #e1801e;
+}
+
+.about-leslie p{
+  font-size: 0.85rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,20 +20,8 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+
 
 @keyframes App-logo-spin {
   from {
