@@ -71,14 +71,16 @@ function App() {
           <div className="row w-100">
             <div className="col-md-1 empty-container"> </div>
             <div className="col-md-5 text-center text-start">
-              <h2 className="">LESLIE ALLEN-VERCODE<br></br>PERSONAL PROFILE</h2>
+              {/* <h2 className="white">LESLIE ALLEN-VERCODE<br></br>PERSONAL PROFILE</h2> */}
               <img
                 className="img-fluid w-50 rounded"
                 src="albraqa_about_leslie.svg"
                 alt="Leslie Allen Vercode"
               />
             </div>
-            <div className="about-leslie col-md-5 text-justify">
+            <div className="about-lesliea col-md-5 text-justify">
+            <h2 className="">LESLIE ALLEN-VERCODE<br></br>PERSONAL PROFILE</h2>
+              <br></br>
               <p>
                 Leslie is a seasoned property professional with over 50 years of
                 experience at the Director level, known for his successful
@@ -88,7 +90,7 @@ function App() {
                 and retail projects, demonstrating strong leadership, financial
                 acumen, and project management skills.
               </p>
-              <p>
+              {/* <p>
                 <b>Current Positions</b>
                 <br></br>· Chairman, <i>Camoren Holdings Ltd</i> (2014-present):
                 Overseeing a £1.2B development in Gibraltar that includes luxury
@@ -121,7 +123,7 @@ function App() {
                 E-mail: leslie@btinternet.com<br></br>
                 Address: Burdocks, Brick Kiln Common, Fittleworth Road,
                 Wisborough Green, RH14 0HA
-              </p>
+              </p> */}
             </div>
             <div className="col-md-1 empty-container"> </div>
           </div>
@@ -148,6 +150,7 @@ function App() {
             </div>
             <div className="about-hjmhdabdillah col-md-5 text-justify">
               <h2 className="">HJ MOHD ABDILLAH<br></br>HJ ABDULLAH SPEECH</h2>
+              <br></br>
               <p>
                 Founded in 2009, Al-Braqa Offshore Sdn Bhd offers top quality
                 products and services that benefits the oil and gas industry in
